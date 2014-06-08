@@ -1,28 +1,21 @@
 @charset "utf-8";
 
-$green: #88C043;
-$grey: #404238;
-$white: #FFFFFE;
-
-$heavy_bold: 500;
-$light_bold: 200;
-
 body {
-  background-color: $green;
-  color: $grey;
+  background-color: #88C043;
+  color: #404238;
   font-family: Helvetica, sans-serif;
   text-align: center;
 }
 
 h1 {
   font-size: 7em;
-  font-weight: $heavy_bold;
+  font-weight: 500;
   margin-bottom: 0.5em;
 }
 
 h2 {
   font-size: 3.5em;
-  font-weight: $light_bold;
+  font-weight: 200;
   margin-bottom: 0;
 }
 
@@ -32,10 +25,10 @@ footer {
 
 a {
   color: inherit;
-  font-weight: $heavy_bold;
+  font-weight: 500;
   text-decoration: none;
+}
 
-  &:hover {
-    text-decoration: underline;
-  }
+a:hover {
+  text-decoration: underline;
 }

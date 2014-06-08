@@ -1,0 +1,5 @@
+task :deploy do
+  sh "rsync -r . nodemn.patrickbyrne.net:/var/www/nodemn.patrickbyrne.net"
+  sh "ssh nodemn.patrickbyrne.net 'killall node 2> /dev/null; cd /var/www/nodemn.patrickbyrne.net/; nohup node server.js > log/server.out 2> log/server.err < /dev/null &'"
+end
+
