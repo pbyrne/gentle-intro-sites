@@ -1,4 +1,4 @@
-var port = process.env.PORT || 8000
+var port = process.env.PORT || 5000
 var http = require('http')
 var url = require('url')
 
@@ -23,7 +23,7 @@ function renderIndex(response) {
   response.write('<head>')
     response.write('<meta charset="utf-8">')
     response.write('<title>Hello, NodeMN!</title>')
-    response.write('<link rel="stylesheet" href="/application.css">')
+    response.write('<link rel="stylesheet" href="/stylesheets/application.css">')
   response.write('</head>')
   response.write('<body>')
     response.write('<header>')
@@ -31,7 +31,7 @@ function renderIndex(response) {
     response.write('</header>')
     response.write('<article>')
       response.write('<h2>Thank you for your attention.</h2>')
-      response.write('<img src="nodejs-green.png"/>')
+      response.write('<img src="/images/nodejs-green.png"/>')
     response.write('</article>')
     response.write('<footer>')
       response.write('<p>Feel free to check out <a href="https://github.com/pbyrne/gentle-intro-sites">the source</a> that built this page.</p>')
