@@ -1,0 +1,20 @@
+I, [2014-06-27T13:48:22.932133 #46275]  INFO -- : listening on addr=0.0.0.0:5000 fd=9
+I, [2014-06-27T13:48:22.932296 #46275]  INFO -- : worker=0 spawning...
+I, [2014-06-27T13:48:22.933605 #46275]  INFO -- : worker=1 spawning...
+I, [2014-06-27T13:48:22.934253 #46275]  INFO -- : worker=2 spawning...
+I, [2014-06-27T13:48:22.934777 #46275]  INFO -- : master process ready
+I, [2014-06-27T13:48:22.935080 #46276]  INFO -- : worker=0 spawned pid=46276
+I, [2014-06-27T13:48:22.935676 #46276]  INFO -- : Refreshing Gem list
+I, [2014-06-27T13:48:22.935388 #46277]  INFO -- : worker=1 spawned pid=46277
+I, [2014-06-27T13:48:22.936231 #46277]  INFO -- : Refreshing Gem list
+I, [2014-06-27T13:48:22.936213 #46278]  INFO -- : worker=2 spawned pid=46278
+I, [2014-06-27T13:48:22.936817 #46278]  INFO -- : Refreshing Gem list
+I, [2014-06-27T13:48:23.014228 #46276]  INFO -- : worker=0 ready
+I, [2014-06-27T13:48:23.015980 #46277]  INFO -- : worker=1 ready
+I, [2014-06-27T13:48:23.018415 #46278]  INFO -- : worker=2 ready
+127.0.0.1 - - [27/Jun/2014 13:49:19] "GET / HTTP/1.1" 200 15 0.0423
+127.0.0.1 - - [27/Jun/2014 13:49:20] "GET /favicon.ico HTTP/1.1" 404 480 0.0361
+I, [2014-06-27T13:51:13.886530 #46275]  INFO -- : reaped #<Process::Status: pid 46278 exit 0> worker=2
+I, [2014-06-27T13:51:13.888165 #46275]  INFO -- : reaped #<Process::Status: pid 46277 exit 0> worker=1
+I, [2014-06-27T13:51:13.888233 #46275]  INFO -- : reaped #<Process::Status: pid 46276 exit 0> worker=0
+I, [2014-06-27T13:51:13.888310 #46275]  INFO -- : master complete
