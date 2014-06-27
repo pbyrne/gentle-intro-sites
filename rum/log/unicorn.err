@@ -18,3 +18,477 @@ I, [2014-06-27T13:51:13.886530 #46275]  INFO -- : reaped #<Process::Status: pid 
 I, [2014-06-27T13:51:13.888165 #46275]  INFO -- : reaped #<Process::Status: pid 46277 exit 0> worker=1
 I, [2014-06-27T13:51:13.888233 #46275]  INFO -- : reaped #<Process::Status: pid 46276 exit 0> worker=0
 I, [2014-06-27T13:51:13.888310 #46275]  INFO -- : master complete
+I, [2014-06-27T14:13:06.718966 #47907]  INFO -- : listening on addr=0.0.0.0:5000 fd=9
+I, [2014-06-27T14:13:06.721528 #47907]  INFO -- : master process ready
+I, [2014-06-27T14:13:06.721946 #47908]  INFO -- : Refreshing Gem list
+I, [2014-06-27T14:13:06.722526 #47909]  INFO -- : Refreshing Gem list
+I, [2014-06-27T14:13:06.722916 #47910]  INFO -- : Refreshing Gem list
+I, [2014-06-27T14:13:06.791009 #47908]  INFO -- : worker=0 ready
+I, [2014-06-27T14:13:06.804183 #47909]  INFO -- : worker=1 ready
+I, [2014-06-27T14:13:06.806101 #47910]  INFO -- : worker=2 ready
+SyntaxError - /Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+...{}, nil, rel: "stylesheet" href: "/application.css" type: "t...
+...                               ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:7: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+..." href: "/application.css" type: "text/css")}>\n  </head>\n ...
+...                               ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:7: syntax error, unexpected ')', expecting tSTRING_DEND
+...lication.css" type: "text/css")}>\n  </head>\n  <body>\n    ...
+...                               ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: unknown regexp option - h
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+));}</h1>\n    </header>\n    <articl...
+        ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: unknown regexp option - p
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: syntax error, unexpected $undefined
+...tlined in my presentation.</p>\n    </article>\n  </body>\n<...
+...                               ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: unknown regexp options - bdy
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: syntax error, unexpected $undefined
+.../p>\n    </article>\n  </body>\n</html>\n", -3, false);
+...                               ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: unterminated regexp meets end of file
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+end;end;end;end
+               ^:
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `class_eval'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `compile_template_method'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:240:in `compiled_method'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:169:in `evaluate'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/haml.rb:24:in `evaluate'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:814:in `render'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:675:in `haml'
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/app.rb:9:in `block in <class:App>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/nulllogger.rb:9:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+127.0.0.1 - - [27/Jun/2014 14:13:10] "GET / HTTP/1.1" 500 191588 0.2542
+127.0.0.1 - - [27/Jun/2014 14:13:10] "GET /__sinatra__/500.png HTTP/1.1" 200 24378 0.0408
+I, [2014-06-27T14:14:10.816739 #47907]  INFO -- : reaped #<Process::Status: pid 47910 exit 0> worker=2
+I, [2014-06-27T14:14:10.817699 #47907]  INFO -- : reaped #<Process::Status: pid 47909 exit 0> worker=1
+I, [2014-06-27T14:14:10.817765 #47907]  INFO -- : reaped #<Process::Status: pid 47908 exit 0> worker=0
+I, [2014-06-27T14:14:10.818109 #47907]  INFO -- : master complete
+I, [2014-06-27T14:14:13.321021 #48236]  INFO -- : listening on addr=0.0.0.0:5000 fd=9
+I, [2014-06-27T14:14:13.323392 #48236]  INFO -- : master process ready
+I, [2014-06-27T14:14:13.323995 #48237]  INFO -- : Refreshing Gem list
+I, [2014-06-27T14:14:13.324434 #48238]  INFO -- : Refreshing Gem list
+I, [2014-06-27T14:14:13.325313 #48239]  INFO -- : Refreshing Gem list
+I, [2014-06-27T14:14:13.436636 #48237]  INFO -- : worker=0 ready
+I, [2014-06-27T14:14:13.436994 #48239]  INFO -- : worker=2 ready
+I, [2014-06-27T14:14:13.449267 #48238]  INFO -- : worker=1 ready
+SyntaxError - /Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+...{}, nil, rel: "stylesheet" href: "/application.css" type: "t...
+...                               ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:7: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+..." href: "/application.css" type: "text/css")}>\n  </head>\n ...
+...                               ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:7: syntax error, unexpected ')', expecting tSTRING_DEND
+...lication.css" type: "text/css")}>\n  </head>\n  <body>\n    ...
+...                               ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: unknown regexp option - h
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: syntax error, unexpected tINTEGER, expecting tSTRING_DEND
+));}</h1>\n    </header>\n    <articl...
+        ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: unknown regexp option - p
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: syntax error, unexpected $undefined
+...tlined in my presentation.</p>\n    </article>\n  </body>\n<...
+...                               ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: unknown regexp options - bdy
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: syntax error, unexpected $undefined
+.../p>\n    </article>\n  </body>\n</html>\n", -3, false);
+...                               ^
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: unterminated regexp meets end of file
+/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+end;end;end;end
+               ^:
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `class_eval'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:264:in `compile_template_method'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:240:in `compiled_method'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:169:in `evaluate'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/haml.rb:24:in `evaluate'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:814:in `render'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:675:in `haml'
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/app.rb:9:in `block in <class:App>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/nulllogger.rb:9:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+127.0.0.1 - - [27/Jun/2014 14:14:18] "GET / HTTP/1.1" 500 191461 0.1645
+NoMethodError - undefined method `link_to' for #<App:0x007f9f513f0e38>:
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:11:in `block in singleton class'
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:-8:in `instance_eval'
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:-8:in `singleton class'
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:-10:in `__tilt_70161113734080'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:170:in `evaluate'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/haml.rb:24:in `evaluate'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:103:in `render'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:814:in `render'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:675:in `haml'
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/app.rb:9:in `block in <class:App>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/nulllogger.rb:9:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+127.0.0.1 - - [27/Jun/2014 14:14:37] "GET / HTTP/1.1" 500 183725 0.1786
+127.0.0.1 - - [27/Jun/2014 14:17:47] "GET / HTTP/1.1" 200 380 0.1467
+127.0.0.1 - - [27/Jun/2014 14:17:47] "GET /application.css HTTP/1.1" 404 484 0.0047
+127.0.0.1 - - [27/Jun/2014 14:18:01] "GET / HTTP/1.1" 200 409 0.0048
+127.0.0.1 - - [27/Jun/2014 14:18:01] "GET /application.css HTTP/1.1" 404 484 0.0013
+127.0.0.1 - - [27/Jun/2014 14:18:10] "GET / HTTP/1.1" 200 380 0.0036
+127.0.0.1 - - [27/Jun/2014 14:18:10] "GET /application.css HTTP/1.1" 404 484 0.0052
+Haml::SyntaxError - Illegal nesting: content can't be both given on the same line as %h1 and nested within it.:
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/parser.rb:393:in `tag'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/parser.rb:213:in `process_line'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/parser.rb:121:in `parse'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/engine.rb:66:in `initialize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/haml.rb:19:in `new'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/haml.rb:19:in `prepare'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:79:in `initialize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `new'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `block in compile_template'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt.rb:127:in `fetch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:832:in `compile_template'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:813:in `render'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:675:in `haml'
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/app.rb:9:in `block in <class:App>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/nulllogger.rb:9:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+127.0.0.1 - - [27/Jun/2014 14:21:16] "GET / HTTP/1.1" 500 188754 0.0400
+127.0.0.1 - - [27/Jun/2014 14:21:16] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0014
+Haml::SyntaxError - Illegal nesting: content can't be both given on the same line as %h1 and nested within it.:
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/parser.rb:393:in `tag'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/parser.rb:213:in `process_line'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/parser.rb:121:in `parse'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/engine.rb:66:in `initialize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/haml.rb:19:in `new'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/haml.rb:19:in `prepare'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:79:in `initialize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `new'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `block in compile_template'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt.rb:127:in `fetch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:832:in `compile_template'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:813:in `render'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:675:in `haml'
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/app.rb:9:in `block in <class:App>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/nulllogger.rb:9:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+127.0.0.1 - - [27/Jun/2014 14:21:20] "GET / HTTP/1.1" 500 188749 0.0490
+127.0.0.1 - - [27/Jun/2014 14:21:20] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0015
+Haml::SyntaxError - Illegal nesting: content can't be both given on the same line as %h1 and nested within it.:
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/views/index.haml:12
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/parser.rb:393:in `tag'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/parser.rb:213:in `process_line'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/parser.rb:121:in `parse'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/haml-4.0.5/lib/haml/engine.rb:66:in `initialize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/haml.rb:19:in `new'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/haml.rb:19:in `prepare'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt/template.rb:79:in `initialize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `new'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:853:in `block in compile_template'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/tilt-1.4.1/lib/tilt.rb:127:in `fetch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:832:in `compile_template'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:813:in `render'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:675:in `haml'
+	/Users/pbyrne/workspace/gentle-intro-sites/rum/app.rb:9:in `block in <class:App>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1603:in `block in compile!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `[]'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (3 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:985:in `route_eval'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:966:in `block (2 levels) in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1006:in `block in process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1004:in `process_route'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:964:in `block in route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `each'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:963:in `route!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1076:in `block in dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1073:in `dispatch!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `block in call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `block in invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `catch'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1058:in `invoke'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:898:in `call!'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:886:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/nulllogger.rb:9:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/show_exceptions.rb:21:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:180:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:2014:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `block in call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1788:in `synchronize'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:1478:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:49:in `_call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/lint.rb:37:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/showexceptions.rb:24:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sinatra-1.4.5/lib/sinatra/base.rb:217:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/chunked.rb:43:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:576:in `process_client'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:670:in `worker_loop'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:525:in `spawn_missing_workers'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/lib/unicorn/http_server.rb:140:in `start'
+	/Users/pbyrne/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/unicorn-4.8.3/bin/unicorn:126:in `<top (required)>'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `load'
+	/Users/pbyrne/.rbenv/versions/2.1.1/bin/unicorn:23:in `<main>'
+127.0.0.1 - - [27/Jun/2014 14:21:21] "GET / HTTP/1.1" 500 188749 0.0431
+127.0.0.1 - - [27/Jun/2014 14:21:21] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0009
+127.0.0.1 - - [27/Jun/2014 14:21:38] "GET / HTTP/1.1" 200 435 0.0064
+127.0.0.1 - - [27/Jun/2014 14:21:38] "GET /application.css HTTP/1.1" 404 484 0.0010
+127.0.0.1 - - [27/Jun/2014 14:21:55] "GET / HTTP/1.1" 200 435 0.0050
+127.0.0.1 - - [27/Jun/2014 14:21:55] "GET /application.css HTTP/1.1" 404 484 0.0012
