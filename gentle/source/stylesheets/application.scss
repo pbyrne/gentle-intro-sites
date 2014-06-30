@@ -1,17 +1,22 @@
 @charset "utf-8";
 
+$green: #8aba56;
+$dark: #333333;
+$light: #fff3df;
+
 body {
-  background-color: #eee;
-  color: #383838;
+  background-color: $dark;
+  color: $light;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 100;
   margin: 1em auto;
   width: 44em;
 }
 
 h1 {
-  border-bottom: 2px solid #383838;
+  border-bottom: 2px solid $green;
   font-size: 3.5em;
-  font-weight: 200;
+  font-weight: 100;
   margin-bottom: 0.5em;
 }
 
@@ -21,13 +26,18 @@ h2 {
   margin-bottom: 0;
 }
 
+article {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
 footer {
   font-weight: 0.7em;
 }
 
 a {
-  color: #4183c4;
-  font-weight: 500;
+  color: $green;
+  font-weight: 300;
   text-decoration: none;
 
   &:hover {
