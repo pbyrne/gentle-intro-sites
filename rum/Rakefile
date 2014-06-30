@@ -1,0 +1,15 @@
+desc "Build and deploy the site"
+task :release do
+  build_and_deploy("rum.patrickbyrne.net")
+end
+
+desc "Build and deploy the site to Vagrant"
+task :vagrant do
+  build_and_deploy("rum.patrickbyrne.net", "gentle-intro")
+end
+
+
+def build_and_deploy(path, server=path)
+  sh "bundle exec middleman build && rsync -avz --delete build/ #{server}:/var/www/#{path}/public"
+end
+
